@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.heading-bebas {
+  font-family: var(--font-bebas);
+}
+
+.body-inter {
+  font-family: var(--font-inter);
+}
+
+.logo-chelsea {
+  font-family: var(--font-chelsea);
+}

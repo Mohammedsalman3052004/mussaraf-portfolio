@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbar from './Sections/Navbar'
-import Footer from './Sections/Footer'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
+import Hero from './Sections/Hero'
 
 const page = () => {
   return (
     <div>
       <Navbar />
+      <Hero />
       <Footer />
     </div>
   )

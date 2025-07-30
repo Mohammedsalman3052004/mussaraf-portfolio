@@ -3,9 +3,9 @@ import '../Styles/navbar.css'
 import Image from 'next/image'
 import navbarLogo from "@/public/Images/nav-logo-ellipse-1.png"
 import Instagram from "@/public/Icons/instagram.svg"
-import Facebook from "@/public/Icons/facebook.svg"
-import LinkedIN from "@/public/Icons/linkedIn.svg"
 import Youtube from "@/public/Icons/youtube.svg"
+import LinkedIN from "@/public/Icons/linkedIn.svg"
+import Facebook from "@/public/Icons/facebook.svg"
 
 const Navbar = () => {
     return (
@@ -34,9 +34,9 @@ const Navbar = () => {
                 </div>
                 <div className='nav-icons-wrapper'>
                     <Image src={Instagram} alt='Navbar Logo' height={18} width={18} />
-                    <Image src={Facebook} alt='Navbar Logo' height={18} width={18} />
-                    <Image src={LinkedIN} alt='Navbar Logo' height={18} width={18} />
                     <Image src={Youtube} alt='Navbar Logo' height={18} width={18} />
+                    <Image src={LinkedIN} alt='Navbar Logo' height={18} width={18} />
+                    <Image src={Facebook} alt='Navbar Logo' height={18} width={18} />
                 </div>
             </div>
         </nav>
